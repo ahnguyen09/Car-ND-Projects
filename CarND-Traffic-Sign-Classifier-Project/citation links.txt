@@ -1,0 +1,9 @@
+Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning:
+Christian Szegedy et all. https://arxiv.org/pdf/1602.07261.pdf
+
+Deep Residual Networks: Deep Learning Gets Way Deeper:
+Kaiming He: http://techtalks.tv/talks/deep-residual-networks-deep-learning-gets-way-deeper/62358/
+23:00 - Compounding Variance
+
+Adam: A Method for Stochastic Optimization
+Diederik P. Kingma, Jimmy Ba: https://arxiv.org/abs/1412.6980
