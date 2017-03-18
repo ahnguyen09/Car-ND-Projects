@@ -3,6 +3,9 @@
 
 <img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
+Quick Link To Writeup: [Finding Lane Lines On The Road](https://github.com/ahnguyen09/Car-ND-Projects/blob/master/P1-lane-lines/Finding%20Lane%20Lines%20on%20the%20Road.pdf)
+---
+
 Overview
 ---
 
