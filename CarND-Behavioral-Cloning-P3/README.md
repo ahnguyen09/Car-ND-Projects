@@ -15,7 +15,14 @@ My model was based on [NVIDIA's End to End Model](https://arxiv.org/pdf/1604.073
 Files description: 
 * behavioral_cloning.ipynb - Notebook used to import,explore and train
 * drive.py - Script to run train model in autonomous mode
-* model.h5 - My trained Keras model
+* modelV2D.h5 - My trained Keras model
+
+To run the model in simulation mode: 
+1) Activate carnd anaconda enviroment
+2) Change to path of drive.p
+3) Run python drive.p modelV2D.h5
+4) Launch Unity Simulator
+5) Click on Autonomous Mode
 
 #### The Project
 The goals / steps of this project are the following:
