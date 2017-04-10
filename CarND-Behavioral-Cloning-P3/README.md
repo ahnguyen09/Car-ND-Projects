@@ -1,10 +1,10 @@
 # Behavioral Cloning Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DM1ywWnfKs4" frameborder="0" allowfullscreen></iframe>
+[![](https://img.youtube.com/vi/DM1ywWnfKs4/0.jpg)](https://www.youtube.com/watch?v=DM1ywWnfKs4)
 
 Overview
 ---
-This repository contains files to run my model and follow along. 
+This repository contains files to run my model and follow along. I DID NOT add pickle data because they were over 2GB in total.
 
 #### [Simulator Download](https://github.com/udacity/self-driving-car-sim)
 
@@ -40,7 +40,7 @@ Template project can be found [here](https://github.com/udacity/CarND-Behavioral
 
 ---
 
-The following sections serves as a summary to the ipython notebook(link here)
+The following sections serves as a summary to the [ipython notebook](behavioral_cloning.ipynb)
 ### Image Processing Definition
 
 rgb2YUV - Function convert a set of images from RGB to YUV. YUV was chosen because that is the color space that NVIDIA used. YUV also makes easier to adjust brightness because Y channel represents brightness.
@@ -50,17 +50,17 @@ luminAugment - Adjust brightness of randomly chosen images of a set and append t
 Image below represent added brightness (Y-Channel)  
 ![](photos/yuv+y.PNG)
 
-Image below is the original RGB
+Image below is the original RGB  
 ![](photos/rgb.PNG)
 
-Image below represent removing brightness (Y-Channel)
+Image below represent removing brightness (Y-Channel)  
 ![](photos/yuv-y.PNG)
 
 steeringClassifier - Define class from -4 to 4 based on steering of the joystick from -1.0 to 1.0.
 
 calcAdjAngle - Given a steering angle with respect to center image, the function return adjust steering if the car was position to the left or right. 
 
-Trigonometry was used to calculate adjusted right and left steering angles. If the car is already turning right, then right camera should represent car steering left but not as much compared to center camera going straight. The left camera would represent car steering harder to the right.
+Trigonometry was used to calculate adjusted right and left steering angles. If the car is already turning right, then right camera should represent car steering left but not as much compared to center camera going straight. The left camera would represent car steering harder to the right.  
 ![](photos/calcAngle.PNG)
 
 ### Examine Data from Unity Training Capture
@@ -77,10 +77,10 @@ The steps are as follow in my ipython notebook:
 
 My images consisted of a majority of images from classes -1 to 1. This is expected because there are many semi-straight segment in both easy and hard track. I chose the first 1800 images from each class after shuffling.
 
-Before Class Balancing:
+Before Class Balancing:  
 ![](photos/data.png)
 
-After class Balancing:
+After class Balancing:  
 ![](photos/dataBalance.png)
 
 ### Build The NVIDIA End to End Model Using Keras Functional API
