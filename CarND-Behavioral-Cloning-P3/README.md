@@ -97,7 +97,7 @@ My training generator takes a pickle file path to load images in uint8 RBG forma
 
 I trained the model over 20 epochs. The model at epoch 15 has the lowest validation loss, however, with this model the car went off of the easy track regularly. The model at epoch 17 was the next best and the weights was used as my final model. The final model also had great test loss.
 
-Model Training:
+Model Training:  
 ![](photos/training.png)
 
 Model at Epoch 17:
