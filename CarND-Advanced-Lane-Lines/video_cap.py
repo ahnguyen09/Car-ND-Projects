@@ -15,7 +15,7 @@ dirs = os.listdir(hardfolder)
 if len(dirs) ==0:
     cap = cv2.VideoCapture("C:\Car-ND-Projects\CarND-Advanced-Lane-Lines\harder_challenge_video.MP4")
     
-    while(cap.isOpened()):
+    while(cap.isOpened() and i <2000):
         ret, frame = cap.read()
                  
         #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -27,8 +27,6 @@ if len(dirs) ==0:
             break
         
         i += 1
-        if cv2.waitKey(delay) & 0xFF == ord('q'):
-            break
                                        
     # When everything done, release the capture
     cap.release()
